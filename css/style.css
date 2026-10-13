@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.en-tete{
+    height: 40px;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.fa-droplet {
+    background-color:#0866C2;
+    color: white;
+    font-size: 25px;
+    border-radius: 8px;
+    
+}
+.logo span{
+    color: blue;
+}
+.navigation ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 40px;
+
+}
+ ul a{
+    text-decoration: none;
+ }
+ .btn1 {
+    color: white;
+    padding: 10px;
+   text-decoration: none;
+    background-color: #FF6418;
+    border-radius: 10px;
+    border: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    
+ }
+
+ .presontation{
+    padding:0px 0px;
+    background-color: olive
+ }
+ .presontation-de-artisan{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-left: 104px;
+    padding-bottom: 0px;
+    padding-right:104px ;
+    padding-top: 64px;
+ }
+ .image1 img{
+    width: 80%;  
+ }
+ .text{
+    background-color: #0866C2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+    padding-left: 2px;
+    
+ }
+ .text h1{
+   font-size: 50px;
+   
+   
+ }
+ .text h5{
+    color: blue;
+    
+ }
+ 
+ .btn2{
+    width: 200px; 
+    height: 30px; 
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 7px;
+    background-color: #FF6418;
+ }
+
+ .btn3{
+     width: 100px; 
+    height: 30px;
+    text-decoration: none;
+    padding: 15px;
+    border: 2px solid grey;
+    border-radius: 7px;
+ }
+ .buttons{
+    display: flex;
+    gap: 20px;
+ }
+
