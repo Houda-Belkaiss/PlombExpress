@@ -16,6 +16,9 @@
     border-radius: 8px;
     
 }
+header{
+    padding: 20px;
+}
 .logo span{
     color: blue;
 }
@@ -35,31 +38,26 @@
    text-decoration: none;
     background-color: #FF6418;
     border-radius: 10px;
-    border: none;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
     
  }
-
- .presontation{
-    padding:0px 0px;
-    background-color: olive
- }
  .presontation-de-artisan{
-    background-color: aquamarine;
+    background-color: white;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    padding-left: 104px;
+    padding-left: 110px;
     padding-bottom: 0px;
-    padding-right:104px ;
-    padding-top: 64px;
+    padding-right:0px ;
+    padding-top: 50px;
+    border: whitesmoke;
+    border-bottom: 10px gray;
  }
  .image1 img{
     width: 80%;  
  }
  .text{
-    background-color: #0866C2;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -79,16 +77,17 @@
  
  .btn2{
     width: 200px; 
-    height: 30px; 
+    height: 20px; 
     text-decoration: none;
     padding: 15px;
     border-radius: 7px;
     background-color: #FF6418;
+    
  }
 
  .btn3{
      width: 100px; 
-    height: 30px;
+    height: 20px;
     text-decoration: none;
     padding: 15px;
     border: 2px solid grey;
@@ -98,4 +97,152 @@
     display: flex;
     gap: 20px;
  }
+ .nos-engagement{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    padding: 30px;
+ }
+ .fa-clock{
+    font-size: 15px;
+    color: #0866C2;
+ }
+ .fa-shield{
+    font-size: 15px;
+    color: #0866C2;
+ }
+ .fa-circle-check{
+    font-size: 15px;
+    color: #0866C2;
+ }
+ .presontation-des-services{
+   padding-top:50px ;
+   padding-bottom:20px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+ }
+ .presontation-des-services h6{
+    color:#0866C2;
+    font-size: 15px;
+ }
+ .presontation-des-services h2{
+    color: #102A43 ;
+    font-size: 40px;
+
+ }
+ .presontation-des-services p{
+    color: #486176;
+    
+ }
+ .liste-des-services{
+    
+    display: flex;
+    padding-left: 120px;
+    padding-bottom: 40px;
+    gap: 20px;
+ }
+.liste-des-services img{
+    width: 400px;
+    height: 200px;
+}
+.cart-service1{
+    
+    border: 1px solid gray;   
+    border-radius: 20px;
+}
+.texte1{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;   
+    padding: 10px;
+}
+.cart-service1 img{
+    border-radius: 20px 20px 0px 0px;
+}
+.fa-wrench{
+    color: #0866C2;
+    
+}
+.fa-bath{
+    color: #0866C2;
+    
+}
+.fa-droplet-slash{
+    color: #0866C2;
+    
+}
+.btn4{
+    text-decoration: none;
+    padding: 15px;
+    border: 2px solid grey;
+    border-radius: 7px;
+    color: black;
+}
+.fa-arrow-right{
+    color: blue;
+    
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pourquoi-nous-choisir{
+    background-color: #FF6418;
+    padding: 50px;
+    display: flex;
+   
+
+    
+}
+.image5 img{
+    
+    width: 60%;
+    height: 80%; 
+}
+
+.group-de-aventage{
+    display: flex;
+    
+}
+.group-de-aventage2{
+    display: flex;
+}
+footer{
+    background-color: #102A43;
+    color: white;
+    padding: 50px;
+    
+}
+.information-de-entreprise{
+   display: flex;
+}
+.informations-legales{
+    display: flex;
+    justify-content: space-between;
+}
+.marque-et-presontation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    height: 150px;
+}
+.resaux-sociaux{
+    display: flex;  
+}
+.re-sociaux{
+    background-color: transparent;
+    border: 1px solid gray;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+
+
+
+
 
