@@ -32,7 +32,7 @@ header{
  ul a{
     text-decoration: none;
  }
- .btn1 {
+ .button1 {
     color: white;
     padding: 10px;
    text-decoration: none;
@@ -42,20 +42,24 @@ header{
     font-size: 16px;
     
  }
+ .presontation{
+   
+    padding-left: 110px;
+    padding-bottom: 0px;
+    padding-right:110px ;
+    padding-top: 30px;
+ }
  .presontation-de-artisan{
-    background-color: white;
+   
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    padding-left: 110px;
-    padding-bottom: 0px;
-    padding-right:0px ;
-    padding-top: 50px;
+    
     border: whitesmoke;
     border-bottom: 10px gray;
  }
  .image1 img{
-    width: 80%;  
+    width: 100%;  
  }
  .text{
     display: flex;
@@ -75,7 +79,7 @@ header{
     
  }
  
- .btn2{
+ .button2{
     width: 200px; 
     height: 20px; 
     text-decoration: none;
@@ -85,7 +89,7 @@ header{
     
  }
 
- .btn3{
+ .button3{
      width: 100px; 
     height: 20px;
     text-decoration: none;
@@ -143,7 +147,11 @@ header{
     padding-bottom: 40px;
     gap: 20px;
  }
+ .liste-des-services{
+    padding-top: 20px;
+ }
 .liste-des-services img{
+    
     width: 400px;
     height: 200px;
 }
@@ -174,7 +182,7 @@ header{
     color: #0866C2;
     
 }
-.btn4{
+.button4{
     text-decoration: none;
     padding: 15px;
     border: 2px solid grey;
@@ -189,27 +197,57 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-right:120px;
+    padding-bottom: 40px;
 }
 .pourquoi-nous-choisir{
-    background-color: #FF6418;
-    padding: 50px;
+    padding-left: 140px;
+    padding-top: 40px;
+    padding-bottom: 60px;
     display: flex;
-   
-
+    
     
 }
-.image5 img{
+.nos-atouts{
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    gap: 20px;
+   
+  
+}
+.notre-exigence{
     
-    width: 60%;
-    height: 80%; 
+   
+}
+.image5 img{
+    border-radius: 20px;
+    width: 100%;  
+}
+.image5{
+    width: 30%;
 }
 
 .group-de-aventage{
     display: flex;
-    
+    gap: 100px;
 }
 .group-de-aventage2{
-    display: flex;
+   display: flex;
+   justify-content: space-evenly;
+   gap: 100px;
+   
+}
+.fa-headphones{
+    color: #0866C2;
+}
+.fa-square-check{
+    color: #0866C2;
+}
+.fa-clipboard{
+    color: #0866C2;
 }
 footer{
     background-color: #102A43;
@@ -219,17 +257,30 @@ footer{
 }
 .information-de-entreprise{
    display: flex;
+   justify-content: space-around;
+   padding-bottom: 50px;
 }
 .informations-legales{
     display: flex;
     justify-content: space-between;
+    padding: 30px;
 }
+.informations {
+  display: flex;
+  gap: 20px;
+    
+   
+    
+    
+}
+
 .marque-et-presontation{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    
     width: 25%;
     height: 150px;
+    gap: 30px;
 }
 .resaux-sociaux{
     display: flex;  
@@ -240,7 +291,25 @@ footer{
     padding: 6px;
     border-radius: 10px;
 }
-
+.liens-utiles{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    line-height: 30px;
+}
+.nos-services{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    line-height: 30px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    line-height: 30px;
+}
 
 
 
