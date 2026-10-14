@@ -196,32 +196,46 @@ header{
 .services{
     display: flex;
     flex-direction: column;
+    
     align-items: center;
     padding-right:120px;
     padding-bottom: 40px;
 }
 .pourquoi-nous-choisir{
+    
     padding-left: 140px;
     padding-top: 40px;
     padding-bottom: 60px;
     display: flex;
     
     
+    
 }
 .nos-atouts{
-    display: flex;
-    padding: 50px;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 100%;
-    gap: 20px;
-   
+  padding-top: 10px;
+  padding-right: 00px;
+  padding-left: 100px;
   
-}
-.notre-exigence{
-    
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  
    
 }
+.notre-exigence h6{
+    color: #0866C2;
+}
+.notre-exigence h2{
+    color: #102A43;
+    font-size: 2em;
+}
+.notre-exigence {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
 .image5 img{
     border-radius: 20px;
     width: 100%;  
@@ -233,11 +247,19 @@ header{
 .group-de-aventage{
     display: flex;
     gap: 100px;
+    
+   
 }
 .group-de-aventage2{
    display: flex;
-   justify-content: space-evenly;
-   gap: 100px;
+   gap: 160px;
+   
+}
+.listes-des-avantages{
+   padding: 20px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
    
 }
 .fa-headphones{
