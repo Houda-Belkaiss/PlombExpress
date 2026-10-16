@@ -1,13 +1,27 @@
 *{
-    padding: 0px;
+    padding:0px;
     margin: 0px;
+    box-sizing: border-box;
+}
+main{
+   padding-left: 104px;
+  padding-right: 104px;
+}
+footer{
+     padding-left: 104px;
+  padding-right: 104px;
+}
+img{
+    width: 100%;
 }
 .en-tete{
-    height: 40px;
+    /*height: 40px;*/
     display: flex;
+    padding: 20PX;
     justify-content: space-around; 
     align-items: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 .fa-droplet {
     background-color:#0866C2;
@@ -17,7 +31,7 @@
     
 }
 header{
-    padding: 20px;
+   /* padding: 20px;*/
 }
 .logo span{
     color: blue;
@@ -28,28 +42,38 @@ header{
     list-style: none;
     gap: 40px;
 
+
 }
  ul a{
     text-decoration: none;
  }
  .button1 {
     color: white;
-    padding: 10px;
+    padding:  10px;
    text-decoration: none;
     background-color: #FF6418;
     border-radius: 10px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 16px;
+ }
+ .button1 a{
+   
+    
+    
     
  }
  .presontation{
-   
-    padding-left: 110px;
+    width: 100%;
+    
+    
+   /* padding-left: 100px;
     padding-bottom: 0px;
-    padding-right:110px ;
-    padding-top: 30px;
+    padding-right:100px ;
+    padding-top: 0px;*/
+    
+
  }
  .presontation-de-artisan{
+    
    
     display: flex;
     flex-direction: row-reverse;
@@ -58,15 +82,21 @@ header{
     border: whitesmoke;
     border-bottom: 10px gray;
  }
+ .image1{
+    
+ }
  .image1 img{
-    width: 100%;  
+    padding: 10px;
+    /*width: 100%; */ 
  }
  .text{
     display: flex;
     flex-direction: column;
+    gap: 15px;
     justify-content: space-between;
-    padding: 50px;
-    padding-left: 2px;
+   
+    /*padding: 50px;
+    padding-left: 2px;*/
     
  }
  .text h1{
@@ -77,35 +107,37 @@ header{
  .text h5{
     color: blue;
     
+    
  }
  
  .button2{
-    width: 200px; 
-    height: 20px; 
-    text-decoration: none;
     padding: 15px;
+    text-decoration: none;
     border-radius: 7px;
     background-color: #FF6418;
     
  }
 
  .button3{
-     width: 100px; 
-    height: 20px;
     text-decoration: none;
-    padding: 15px;
+    padding:15px ;
+   
     border: 2px solid grey;
     border-radius: 7px;
  }
  .buttons{
     display: flex;
     gap: 20px;
+    /*display: flex;*/
+   
  }
  .nos-engagement{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     font-size: 20px;
-    padding: 30px;
+   padding-bottom: 30px ;
+   padding: 30px;
  }
  .fa-clock{
     font-size: 15px;
@@ -120,8 +152,8 @@ header{
     color: #0866C2;
  }
  .presontation-des-services{
-   padding-top:50px ;
-   padding-bottom:20px ;
+  /* padding-top:50px ;
+   padding-bottom:20px ;*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -143,29 +175,33 @@ header{
  .liste-des-services{
     
     display: flex;
-    padding-left: 120px;
-    padding-bottom: 40px;
+   
+   /* padding-left: 120px;
+    padding-bottom: 40px;*/
     gap: 20px;
  }
  .liste-des-services{
     padding-top: 20px;
+    padding-bottom: 50px;
  }
 .liste-des-services img{
     
-    width: 400px;
-    height: 200px;
+    /*width: 400px;
+    height: 200px;*/
 }
 .cart-service1{
     
     border: 1px solid gray;   
     border-radius: 20px;
+   
 }
 .texte1{
     
     display: flex;
     flex-direction: column;
-    gap: 10px;   
-    padding: 10px;
+    gap: 10px; 
+     padding: 20px;  
+  
 }
 .cart-service1 img{
     border-radius: 20px 20px 0px 0px;
@@ -198,25 +234,26 @@ header{
     flex-direction: column;
     
     align-items: center;
-    padding-right:120px;
-    padding-bottom: 40px;
+   /* padding-right:120px;
+    padding-bottom: 40px;*/
 }
 .pourquoi-nous-choisir{
     
-    padding-left: 140px;
+    padding-bottom: 30px;
     padding-top: 40px;
-    padding-bottom: 60px;
+
     display: flex;
+    justify-content: space-around;
     
     
     
 }
 .nos-atouts{
-  padding-top: 10px;
+  /*padding-top: 10px;
   padding-right: 00px;
-  padding-left: 100px;
+  padding-left: 100px;*/
   
-  width: 40%;
+  /*width: 40%;*/
   display: flex;
   flex-direction: column;
   
@@ -232,13 +269,13 @@ header{
 .notre-exigence {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    gap: 20px;
+    
+   gap: 20px;
 }
 
 .image5 img{
     border-radius: 20px;
-    width: 100%;  
+    /*width: 100%; */ 
 }
 .image5{
     width: 30%;
@@ -246,19 +283,22 @@ header{
 
 .group-de-aventage{
     display: flex;
-    gap: 100px;
+  justify-content: space-around;
+  
     
    
 }
 .group-de-aventage2{
    display: flex;
-   gap: 160px;
+  justify-content: space-around;
+  
    
 }
 .listes-des-avantages{
-   padding: 20px;
+   /*padding: 20px;*/
     display: flex;
-    gap: 30px;
+    justify-content: space-evenly;
+   line-height: 30px;
     flex-direction: column;
    
 }
@@ -274,18 +314,18 @@ header{
 footer{
     background-color: #102A43;
     color: white;
-    padding: 50px;
+    /*padding: 50px;*/
     
 }
 .information-de-entreprise{
    display: flex;
    justify-content: space-around;
-   padding-bottom: 50px;
+  /* padding-bottom: 50px;*/
 }
 .informations-legales{
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    /*padding: 30px;*/
 }
 .informations {
   display: flex;
@@ -295,17 +335,20 @@ footer{
     
     
 }
+footer{
+    padding: 50px;
+}
 
 .marque-et-presontation{
     display: flex;
     flex-direction: column;
-    
-    width: 25%;
-    height: 150px;
+   /* width: 25%;
+    height: 150px;*/
     gap: 30px;
 }
 .resaux-sociaux{
-    display: flex;  
+    display: flex; 
+    
 }
 .re-sociaux{
     background-color: transparent;
@@ -317,20 +360,81 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 15px;
-    line-height: 30px;
+    /*line-height: 30px;*/
 }
 .nos-services{
     
     display: flex;
     flex-direction: column;
     gap: 15px;
-    line-height: 30px;
+   /* line-height: 30px;*/
 }
 .contact{
     display: flex;
     flex-direction: column;
     gap: 15px;
     line-height: 30px;
+}
+@media screen and ( max-width: 480px) {
+    main{
+        padding:20px;
+    
+    }
+    .footer{
+        padding:20px;
+    }
+    
+
+    .en-tete{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+        
+    }
+   .navigation {
+    display: none;
+   }
+
+    
+    .button1{
+        width: 100%;
+        
+    }
+    .button2{
+         width: 100%;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    
+    
+    .button4{
+        width: 100%;
+    }
+    .presontation-de-artisan{
+       display: flex;
+       flex-direction: column;
+       flex-direction: column-reverse;
+        
+    }
+    
+    .liste-des-services{
+    display: flex;
+    flex-direction: column;
+   
+}
+.informations-legales{
+    
+    
+}
+.information-de-entreprise{
+    display: flex;
+}
+
 }
 
 
